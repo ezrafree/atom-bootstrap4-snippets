@@ -36,6 +36,8 @@
      </div>
      """
 
+	# col-sm-*
+
 	'Bootstrap Small 12-Column':
 		'prefix': 'colsm12'
 		'rightLabelHTML': '<span style="color:#ff0">BS</span>'
@@ -140,6 +142,116 @@
 		'rightLabelHTML': '<span style="color:#ff0">BS</span>'
 		'body': """
 		<div class="col-sm-1">
+			$1
+		</div>
+		"""
+
+	# col-md-*
+
+	'Bootstrap Medium 12-Column':
+		'prefix': 'colmd12'
+		'rightLabelHTML': '<span style="color:#ff0">BS</span>'
+		'body': """
+		<div class="col-md-12">
+			$1
+		</div>
+		"""
+
+	'Bootstrap Medium 11-Column':
+		'prefix': 'colmd11'
+		'rightLabelHTML': '<span style="color:#ff0">BS</span>'
+		'body': """
+		<div class="col-md-11">
+			$1
+		</div>
+		"""
+
+	'Bootstrap Medium 10-Column':
+		'prefix': 'colmd10'
+		'rightLabelHTML': '<span style="color:#ff0">BS</span>'
+		'body': """
+		<div class="col-md-10">
+			$1
+		</div>
+		"""
+
+	'Bootstrap Medium 9-Column':
+		'prefix': 'colmd9'
+		'rightLabelHTML': '<span style="color:#ff0">BS</span>'
+		'body': """
+		<div class="col-md-9">
+			$1
+		</div>
+		"""
+
+	'Bootstrap Medium 8-Column':
+		'prefix': 'colmd8'
+		'rightLabelHTML': '<span style="color:#ff0">BS</span>'
+		'body': """
+		<div class="col-md-8">
+			$1
+		</div>
+		"""
+
+	'Bootstrap Medium 7-Column':
+		'prefix': 'colmd7'
+		'rightLabelHTML': '<span style="color:#ff0">BS</span>'
+		'body': """
+		<div class="col-md-7">
+			$1
+		</div>
+		"""
+
+	'Bootstrap Medium 6-Column':
+		'prefix': 'colmd6'
+		'rightLabelHTML': '<span style="color:#ff0">BS</span>'
+		'body': """
+		<div class="col-md-6">
+			$1
+		</div>
+		"""
+
+	'Bootstrap Medium 5-Column':
+		'prefix': 'colmd5'
+		'rightLabelHTML': '<span style="color:#ff0">BS</span>'
+		'body': """
+		<div class="col-md-5">
+			$1
+		</div>
+		"""
+
+	'Bootstrap Medium 4-Column':
+		'prefix': 'colmd4'
+		'rightLabelHTML': '<span style="color:#ff0">BS</span>'
+		'body': """
+		<div class="col-md-4">
+			$1
+		</div>
+		"""
+
+	'Bootstrap Medium 3-Column':
+		'prefix': 'colmd3'
+		'rightLabelHTML': '<span style="color:#ff0">BS</span>'
+		'body': """
+		<div class="col-md-3">
+			$1
+		</div>
+		"""
+
+	'Bootstrap Medium 2-Column':
+		'prefix': 'colmd2'
+		'rightLabelHTML': '<span style="color:#ff0">BS</span>'
+		'body': """
+		<div class="col-md-2">
+			$1
+		</div>
+		"""
+
+	'Bootstrap Medium 1-Column':
+		'prefix': 'colmd1'
+		'rightLabelHTML': '<span style="color:#ff0">BS</span>'
+		'body': """
+		<div class="col-md-1">
 			$1
 		</div>
 		"""

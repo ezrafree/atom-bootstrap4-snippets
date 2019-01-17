@@ -1,7 +1,7 @@
 '.text.html.basic':
 
 	'Input group':
-		'prefix': 'input-group'
+		'prefix': 'inputgroup'
 		'rightLabelHTML': '<span style="color:#ff0">BS</span>'
 		'body': """
 			<div class="input-group">
@@ -11,7 +11,7 @@
 		"""
 
 	'Button addon':
-		'prefix': 'input-group-btn'
+		'prefix': 'inputgroupbtn'
 		'rightLabelHTML': '<span style="color:#ff0">BS</span>'
 		'body': """
 			<div class="input-group">

@@ -6,12 +6,12 @@
 		'body': '<a class="btn btn-${1:primary}" href="#" role="button">$2</a>'
 
 	'Button outline':
-		'prefix': 'btn-outline'
+		'prefix': 'btnoutline'
 		'rightLabelHTML': '<span style="color:#ff0">BS</span>'
 		'body': '<a class="btn btn-${1:primary}-outline" href="#" role="button">$2</a>'
 
 	'Button dropdown':
-		'prefix': 'btn-dropdown'
+		'prefix': 'btndropdown'
 		'rightLabelHTML': '<span style="color:#ff0">BS</span>'
 		'body': """
 			<div class="btn-group">
@@ -27,7 +27,7 @@
 		"""
 
 	'Button split':
-		'prefix': 'btn-split'
+		'prefix': 'btnsplit'
 		'rightLabelHTML': '<span style="color:#ff0">BS</span>'
 		'body': """
 			<div class="btn-group">
@@ -44,7 +44,7 @@
 		"""
 
 	'Button group':
-		'prefix': 'btn-group'
+		'prefix': 'btngroup'
 		'rightLabelHTML': '<span style="color:#ff0">BS</span>'
 		'body': """
 			<div class="btn-group" role="group" aria-label="Button group">
@@ -53,6 +53,6 @@
 		"""
 
 	'Button toolbar':
-		'prefix': 'btn-toolbar'
+		'prefix': 'btntoolbar'
 		'rightLabelHTML': '<span style="color:#ff0">BS</span>'
 		'body': '<div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups"></div>'

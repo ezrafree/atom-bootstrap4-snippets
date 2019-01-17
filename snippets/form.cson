@@ -51,3 +51,42 @@
 			<button type="submit" class="btn btn-primary">Sign in</button>
 		</form>
 		"""
+
+	'Bootstrap Form Group':
+		'prefix': 'formgroup'
+		'rightLabelHTML': '<span style="color:#ff0">BS</span>'
+		'body': """
+			<fieldset class="form-group">
+			<label for="$1">$2</label>
+			<input type="text" class="form-control" id="$1" placeholder="$4">
+			</fieldset>
+		"""
+
+	'Bootstrap Form Text Input':
+		'prefix': 'forminputtext'
+		'rightLabelHTML': '<span style="color:#ff0">BS</span>'
+		'body': '<input type="text" class="form-control" id="$1" placeholder="$2">\n'
+
+	'Bootstrap Form Checkbox':
+		'prefix': 'formcheckbox'
+		'rightLabelHTML': '<span style="color:#ff0">BS</span>'
+		'body': """
+			<div class="checkbox">
+			<label>
+				<input id="$1" name="$2" value="$3" type="checkbox" ${4:checked}>
+				$2
+			</label>
+			</div>
+		"""
+
+	'Bootstrap Form Radio':
+		'prefix': 'formradio'
+		'rightLabelHTML': '<span style="color:#ff0">BS</span>'
+		'body': """
+			<div class="radio">
+			<label>
+				<input id="$1" name="$2" value="$3" type="radio" ${4:checked}>
+				$4
+			</label>
+			</div>
+		"""
