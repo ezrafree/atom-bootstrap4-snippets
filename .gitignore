@@ -1,0 +1,37 @@
+# Git Ignore List
+
+# Mac OS
+.DS_Store
+.DS_Store?
+.AppleDouble
+.LSOverride
+*~
+._*
+.Spotlight-V100
+.Trashes
+__MACOSX
+Thumbs.db
+ehthumbs.db
+
+# Linux OS
+.swp.*
+*.swp.*
+*.swp
+
+# Editor Config
+.editorconfig
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+sftp-config.json
+sftp-config-*.json
+
+# Netbeans
+nbproject
+
+# Sass
+.sass-cache/
+
+# Node.js
+node_modules

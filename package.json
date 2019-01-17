@@ -1,0 +1,16 @@
+{
+  "title": "Atom Bootstrap 4 Snippets",
+  "name": "atom-bootstrap4-snippets",
+  "version": "0.1.0",
+  "description": "Bootstrap 4 and other snippets for Atom",
+  "author": "Ezra Free <ezrafree@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ezrafree/atom-bootstrap4-snippets.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {}
+}

@@ -1,0 +1,19 @@
+'.text.html.basic':
+
+	'HTML Boilerplate':
+		'prefix': 'html'
+		'rightLabelHTML': '<span style="color:#ff0">HTML</span>'
+		'body': """
+		<!doctype html>
+		<html lang="en-us">
+		<head>
+			<meta charset="UTF-8">
+			<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+			<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+			<title>${1:Page Title}</title>
+		</head>
+		<body>
+			${2:<h1>Hello, world</h1>}
+		</body>
+		</html>
+		"""
