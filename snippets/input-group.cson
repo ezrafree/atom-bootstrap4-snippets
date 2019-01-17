@@ -1,4 +1,5 @@
-'.text.html':
+'.text.html.basic':
+
   'Input group':
     'prefix': 'input-group'
 	'rightLabelHTML': '<span style="color:#ff0">BS</span>'
