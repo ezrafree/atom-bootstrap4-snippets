@@ -28,13 +28,13 @@
 		"""
 
 	'Bootstrap Column':
-     'prefix': 'col'
-     'rightLabelHTML': '<span style="color:#ff0">BS</span>'
-     'body': """
-     <div class="col">
-       $1
-     </div>
-     """
+		'prefix': 'col'
+		'rightLabelHTML': '<span style="color:#ff0">BS</span>'
+		'body': """
+		<div class="col">
+			$1
+		</div>$2
+		"""
 
 	# col-sm-*
 
@@ -44,7 +44,7 @@
 		'body': """
 		<div class="col-sm-12">
 			$1
-		</div>
+		</div>$2
 		"""
 
 	'Bootstrap Small 11-Column':
@@ -53,7 +53,7 @@
 		'body': """
 		<div class="col-sm-11">
 			$1
-		</div>
+		</div>$2
 		"""
 
 	'Bootstrap Small 10-Column':
@@ -62,7 +62,7 @@
 		'body': """
 		<div class="col-sm-10">
 			$1
-		</div>
+		</div>$2
 		"""
 
 	'Bootstrap Small 9-Column':
@@ -71,7 +71,7 @@
 		'body': """
 		<div class="col-sm-9">
 			$1
-		</div>
+		</div>$2
 		"""
 
 	'Bootstrap Small 8-Column':
@@ -80,7 +80,7 @@
 		'body': """
 		<div class="col-sm-8">
 			$1
-		</div>
+		</div>$2
 		"""
 
 	'Bootstrap Small 7-Column':
@@ -89,7 +89,7 @@
 		'body': """
 		<div class="col-sm-7">
 			$1
-		</div>
+		</div>$2
 		"""
 
 	'Bootstrap Small 6-Column':
@@ -98,7 +98,7 @@
 		'body': """
 		<div class="col-sm-6">
 			$1
-		</div>
+		</div>$2
 		"""
 
 	'Bootstrap Small 5-Column':
@@ -107,7 +107,7 @@
 		'body': """
 		<div class="col-sm-5">
 			$1
-		</div>
+		</div>$2
 		"""
 
 	'Bootstrap Small 4-Column':
@@ -116,7 +116,7 @@
 		'body': """
 		<div class="col-sm-4">
 			$1
-		</div>
+		</div>$2
 		"""
 
 	'Bootstrap Small 3-Column':
@@ -125,7 +125,7 @@
 		'body': """
 		<div class="col-sm-3">
 			$1
-		</div>
+		</div>$2
 		"""
 
 	'Bootstrap Small 2-Column':
@@ -134,7 +134,7 @@
 		'body': """
 		<div class="col-sm-2">
 			$1
-		</div>
+		</div>$2
 		"""
 
 	'Bootstrap Small 1-Column':
@@ -143,7 +143,7 @@
 		'body': """
 		<div class="col-sm-1">
 			$1
-		</div>
+		</div>$2
 		"""
 
 	# col-md-*
@@ -154,7 +154,7 @@
 		'body': """
 		<div class="col-md-12">
 			$1
-		</div>
+		</div>$2
 		"""
 
 	'Bootstrap Medium 11-Column':
@@ -163,7 +163,7 @@
 		'body': """
 		<div class="col-md-11">
 			$1
-		</div>
+		</div>$2
 		"""
 
 	'Bootstrap Medium 10-Column':
@@ -172,7 +172,7 @@
 		'body': """
 		<div class="col-md-10">
 			$1
-		</div>
+		</div>$2
 		"""
 
 	'Bootstrap Medium 9-Column':
@@ -181,7 +181,7 @@
 		'body': """
 		<div class="col-md-9">
 			$1
-		</div>
+		</div>$2
 		"""
 
 	'Bootstrap Medium 8-Column':
@@ -199,7 +199,7 @@
 		'body': """
 		<div class="col-md-7">
 			$1
-		</div>
+		</div>$2
 		"""
 
 	'Bootstrap Medium 6-Column':
@@ -208,7 +208,7 @@
 		'body': """
 		<div class="col-md-6">
 			$1
-		</div>
+		</div>$2
 		"""
 
 	'Bootstrap Medium 5-Column':
@@ -217,7 +217,7 @@
 		'body': """
 		<div class="col-md-5">
 			$1
-		</div>
+		</div>$2
 		"""
 
 	'Bootstrap Medium 4-Column':
@@ -226,7 +226,7 @@
 		'body': """
 		<div class="col-md-4">
 			$1
-		</div>
+		</div>$2
 		"""
 
 	'Bootstrap Medium 3-Column':
@@ -235,7 +235,7 @@
 		'body': """
 		<div class="col-md-3">
 			$1
-		</div>
+		</div>$2
 		"""
 
 	'Bootstrap Medium 2-Column':
@@ -244,7 +244,7 @@
 		'body': """
 		<div class="col-md-2">
 			$1
-		</div>
+		</div>$2
 		"""
 
 	'Bootstrap Medium 1-Column':
@@ -253,5 +253,5 @@
 		'body': """
 		<div class="col-md-1">
 			$1
-		</div>
+		</div>$2
 		"""

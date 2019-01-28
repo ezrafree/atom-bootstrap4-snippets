@@ -6,7 +6,7 @@
 		'body': """
 			<div class="jumbotron">
 				<h1 class="display-4">${1:Hello, world!}</h1>
-			</div>
+			</div>$2
 		"""
 
 	'Jumbotron Fluid':
@@ -15,5 +15,5 @@
 		'body': """
 			<div class="jumbotron-fluid">
 				<h1 class="display-4">${1:Hello, world!}</h1>
-			</div>
+			</div>$2
 		"""
