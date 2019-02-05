@@ -81,14 +81,15 @@ This package contains mostly Bootstrap 4 code snippets, along with a few other s
 
 ## HTML
 
-* `html`
+* `html` - An HTML document boilerplate
+* `loadcss` - Preload <link> element and LoadCSS JavaScript
 
 ## JavaScript
 
-* `cl`
-* `log`
-* `ieie`
+* `cl` - Outputs a console.log with a preceeding conditional to check if console.log is present
+* `log` - Outputs a console.log statement without a preceeding conditional to check if console.log is present
+* `ieie` - Outputs an 'if / else if / else' conditional statement
 
 ## Lorem Ipsum
 
-* `lorem`
+* `lorem` - Outputs a lorem ipsum paragraph
