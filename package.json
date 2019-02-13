@@ -1,7 +1,7 @@
 {
   "title": "Atom Bootstrap 4 Snippets",
   "name": "atom-bootstrap4-snippets",
-  "version": "0.3.4",
+  "version": "0.3.5",
   "description": "Bootstrap 4 and other snippets for Atom",
   "author": "Ezra Free <ezrafree@gmail.com>",
   "repository": {
