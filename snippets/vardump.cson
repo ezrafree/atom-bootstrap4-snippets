@@ -2,7 +2,7 @@
 
 	'var_dump()':
 		'prefix': 'vd'
-		'rightLabelHTML': '<span style="color:#8892be">PHP</span>'
+		'rightLabelHTML': '<span style="color:#fff;background-color:#8892be">PHP</span>'
 		'body': """
 		ob_start(); var_dump($1); $out = ob_get_clean(); echo $out;
 		"""
