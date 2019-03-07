@@ -8,7 +8,7 @@
 	'Button outline':
 		'prefix': 'btnoutline'
 		'rightLabelHTML': '<span style="color:#ff0">BS</span>'
-		'body': '<a class="btn btn-${1:primary}-outline" href="#" role="button">$2</a>'
+		'body': '<a class="btn btn-outline-${1:primary}" href="#" role="button">$2</a>'
 
 	'Button dropdown':
 		'prefix': 'btndropdown'
